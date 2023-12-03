@@ -1,0 +1,252 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    height: 60px;
+    width: 1365px;
+    background-color: rgb(250, 250, 250);
+
+}
+
+.nav-links{
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.4rem bold;
+    margin-top: 5px;
+    color: #111B47;
+}
+
+.logo{
+    font-size: 2rem;
+    color: #111B47;
+    font-weight: 700;
+}
+.first-btn{
+    margin-top: 5px;
+    font-size: 1rem;
+    width: 220px;
+    height: 40px;
+    background-color: #111B47;
+    ;
+    color: white;
+    width: 160px;
+    height: 26px;
+    top: 18px;
+    left: 1115px;
+
+}
+
+
+/* hero section */
+
+ section{
+    display: flex;
+}
+
+.left{
+    padding-top: 4rem;
+    padding-left: 8.5rem;
+    width: 539.37px;
+    height: 421px;
+    top: 303px;
+    left: 163.12px; 
+    }
+.right img{
+    padding: 0%;
+    margin: 0%;
+    width: 750px;
+    height: 600px;
+    
+}
+
+
+.left h1{
+    padding-top:5rem ;
+    font-size: 2.4rem;
+    color: #111B47;
+}
+
+.left p{
+    padding-top: 1rem;
+}
+.sec-btn{
+    
+    width: 130px;
+    height: 26px;
+    top: 688px;
+    left: 163.12px;
+    margin: 1rem;
+    margin-left: 0%;
+    background-color: #111B47;
+    color: white;
+    
+
+
+}
+.third-btn{
+    width: 130px;
+    height: 26px;
+    top: 688px;
+    left: 163.12px;
+    color: #111B47;
+}
+
+.buttons-two{
+padding-top: 2rem;
+}
+
+
+/* second-page */
+.second-page{
+    display: flex;
+}
+.sec-left h1{
+    font-size: 2rem;
+}
+
+.sec-left{
+    padding-top: 7rem;
+    width: 540px;
+    height: 204px;
+    top: 1270px;
+    left: 165px;
+    padding-left: 9.5rem;
+}
+.sec-left p{
+    padding-top: 2rem;
+}
+.title{
+    display: flex;
+    gap: 2rem;
+    padding-top: 5rem;
+}
+.sec-right img{
+    padding-top: 3rem;
+    padding-left: 7rem;
+    height: 600px;
+    width: 650px;
+}
+.title-left p{
+    
+    width: 300px;
+}
+.title-right p{
+    
+    width: 300px;
+}
+.sec-right {
+    padding-left: 6rem;
+}
+
+
+/* third-page */
+
+.thrd-page{
+    display: flex;
+}
+.thrd-left img{
+    width: 600px;
+    padding-left: 10rem;
+    padding-top: 7rem;
+}
+.thrd-right P{
+    padding-top: 1rem;
+}
+.thrd-right{
+    width: 500px;
+    height: 250px;
+    padding-top: 12rem;
+    padding-left: 9rem;
+}
+.gap{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.six-page{
+    display: flex;
+    padding-top: 10rem;
+    flex-direction: column;
+    text-align: center;
+}
+.six-page h3{
+    font-size: 30pt;
+}
+.six-page p{
+    width: 400;
+    align-items: center;
+}
+.six-page h6{
+    font-size: 1rem;
+}
+.six-page h1{
+    padding-top: 3rem;
+    font-size: 3rem ;
+    font-weight: 900;
+    color: #111B47;
+}
+.gap-1 p{
+    padding-top: 3rem;
+    padding-bottom: 0%;
+    font-size: 1rem;
+}
+.gap-1 button{
+    width: 250px;
+}
+.first-footer{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.first-footer p{
+    font-size: 1.5rem;
+    padding-bottom: 0 0 0;
+}
+.first-footer, .logo{
+    font-size: 1.rem;
+}
+.first-footer{
+    background-color: #e7ebfc;
+}
+footer{
+    padding-top: 0%;
+}
+.sec-footer .nav-links{
+    padding-top: 1rem;
+    padding-left: 8rem;
+    height: 4rem;
+    background-color: #e7ebfc;
+}
+/* @media screen and (max-width: 400px ) {
+    #desktop-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+}
+.logo{
+    display: none;
+}
+footer{
+text-align: center;
+align-items: center;
+justify-content: center;
+
+} */
+
+
+
+
+
+
+
+
+
+
